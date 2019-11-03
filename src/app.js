@@ -1,6 +1,7 @@
 import React from 'react';
 import './app.css';
 import Primario from './components/primario';
+import Background from './components/background'
 
 function App() {
     const categoria = ['Primeiro', 'Segundo', 'Terceiro'];
@@ -39,7 +40,7 @@ function App() {
 
     return(
         <div className='Wrapper'>
-            <div className='items'>
+            {/**<div className='items'>
                 <div className='items-head'>
                     <p>Linktree Dashboard</p>
                     <hr/>
@@ -47,7 +48,9 @@ function App() {
                 {categoria.map( (x, y) => {
                     return <Primario Cat={x} Sub={subcategorias[y]} key={x} />;
                 })}
-            </div>
+            </div>**/}
+            <Background />
+
         </div>
     );
 }

@@ -23,8 +23,7 @@ li {
     margin: auto;
     display: grid;
     place-items: center;
-    background: rgb(95, 192, 211);
-    background: linear-gradient(90deg, rgba(95, 192, 211, 1) 0%, rgba(82, 161, 113, 1) 100%);
+    background-color: #ffffff;
 }
 
 .items {

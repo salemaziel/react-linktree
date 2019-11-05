@@ -4,12 +4,12 @@ import {
     CardTitle, CardSubtitle, Button, 
     
   } from 'reactstrap'
-  import Primario from './primario';
-  import '../app.css'
-  import '../css/cardcontent.css'
+import Primario from './primario';
+import './primario/index.css'
+import '../app.css'
+import '../css/cardcontent.css'
 import Header from './header';
-
-
+import Footer from './footer';
 
  
 
@@ -54,6 +54,7 @@ function cardContent() {
         <Card className="card-bg">
             <Header />
         <CardBody>
+        
           <CardTitle>
               <h1 style={{
                   textAlign: 'center',
@@ -65,6 +66,7 @@ function cardContent() {
             </CardTitle>
             <CardSubtitle>Just a test: Subtitle</CardSubtitle>
             <CardText>
+
                     <div className='items'>
                         <div className='items-head'>
                             <h3>Linktree Dashboard</h3>
@@ -75,11 +77,12 @@ function cardContent() {
                                 })}
                     </div>
                 Some quick example text blah blah blah
-
+                
                 </CardText>
-                <Button>Check It Out</Button>
+  
                 
         </CardBody>
+        <Footer />
         </Card>
     )
 }

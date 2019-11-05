@@ -4,18 +4,17 @@ import {
   } from 'reactstrap'
   import '../app.css'
   import '../css/main.css'
-  import Cardcontent from './cardContent'
-
+  import Cardcontent3 from './cardContent3'
   //import Header from '../components/header'
 
 
 
-  function Main() {
+  function Layout2() {
         return (
 
             <Container>
-
-                <Cardcontent />
+                <Cardcontent3 />
+               
             </Container>
 
 
@@ -24,4 +23,4 @@ import {
 
 
 
-export default Main
+export default Layout2

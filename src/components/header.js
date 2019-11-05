@@ -6,7 +6,8 @@ class Header extends React.Component {
     render() {
         return (
             <div className="userphoto">
-                <img className="photo" src={Profilepic} alt="" />
+                <a href="https://salemaziel.com">
+                <img className="photo" src={Profilepic} alt=""></img></a>
                 <h1 className=""> @rbl_art760</h1>
             </div>
 

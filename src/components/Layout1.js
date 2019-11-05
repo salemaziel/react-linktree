@@ -10,7 +10,8 @@ import {
 
 
 
-  function Layout1() {
+ class Layout1 extends React.Component {
+    render() {
         return (
 
             <Container>
@@ -21,7 +22,7 @@ import {
 
   )
 }
-
+ }
 
 
 export default Layout1

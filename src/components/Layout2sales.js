@@ -4,17 +4,17 @@ import {
   } from 'reactstrap'
   import '../app.css'
   import '../css/main.css'
-  import Cardcontent2 from './cardContent2'
+  import Cardcontent2sales from './cardContent2sales'
 import '../css/gallery2.css'
   //import Header from '../components/header'
 
 
 
- class Layout2 extends React.Component {
+class Layout2sales extends React.Component {
     render() {
         return (
             <Container>
-                <Cardcontent2 />
+                <Cardcontent2sales />
                
             </Container>
 
@@ -24,4 +24,4 @@ import '../css/gallery2.css'
 }
 
 
-export default Layout2
+export default Layout2sales

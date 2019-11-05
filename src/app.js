@@ -6,6 +6,7 @@ import Layout3 from './components/Layout3'
 
 import './css/cardcontent.css'
 import './css/main.css'
+import Layout2sales from './components/Layout2sales';
 
 function App() {
    
@@ -15,6 +16,7 @@ function App() {
         <div className='Wrapper'>
             <Layout1 />
             <Layout2 />
+            <Layout2sales />
             {/**<Layout3 />**/}
         </div>
     );

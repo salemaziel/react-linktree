@@ -26,7 +26,7 @@ import Product from './product'
                     }}>
                 Close Window After Adding to Cart To Continue Shopping. 
                 </h4>
-                <p>
+                {/**<p>
                     <span class="image left"><img src={Pic5} alt="" /></span>
                     FEATURED PRODUCT. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
                 </p>
@@ -34,7 +34,7 @@ import Product from './product'
 				<p>
                     <span class="image right"><img src={Pic5 }alt="" /></span>
                     FEATURED PRODUCT. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum.
-                </p>
+                </p>**/}
                         <hr />
 							{/**<span class="image fit"><img src="images/banner.jpg" alt="" /></span>**/}
 						<div style={{

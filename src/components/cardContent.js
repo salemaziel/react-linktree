@@ -51,7 +51,7 @@ function cardContent() {
     ];
 
     return (
-        <Card className="card-bg">
+        <Card className="card-bg gallery2">
             <Header />
         <CardBody>
         

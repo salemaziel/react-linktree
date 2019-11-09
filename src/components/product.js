@@ -12,10 +12,10 @@ class Product extends React.Component {
 					<img src={Pic1} alt="" button
                     		                className='snipcart-add-item buyBtn'
                     						data-item-id="1"
-                    						data-item-price="11"
+                    						data-item-price="25"
                     						data-item-image={Pic1}
-                    						data-item-name= "Product Name"
-                    						data-item-description= "Description"
+                    						data-item-name= "Rainbow Pipe"
+                    						data-item-description= "Midsized Handheld spoon pipe with rainbow speckled handle and black-as-night bowl"
                     						data-item-url={"http://snipcart-gatsby.netlify.com"}>
 				    </img>
 													

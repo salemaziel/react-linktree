@@ -1,7 +1,7 @@
 import React from 'react'
 import {
     Card, CardText, CardBody,
-    CardTitle, CardSubtitle, Button, 
+    CardTitle, CardSubtitle,  
     
   } from 'reactstrap'
 import Primario from './primario';
@@ -11,7 +11,7 @@ import '../css/cardcontent.css'
 import Header from './header';
 import Footer from './footer';
 
- 
+import Button from '../components/button' 
 
 
 function cardContent() {
@@ -66,6 +66,7 @@ function cardContent() {
             </CardTitle>
             <CardSubtitle>Just a test: Subtitle</CardSubtitle>
             <CardText>
+                <Button primary href="/gallery" prefetch>Gallery Layout </Button>
 
                     <div className='items'>
                         <div className='items-head'>

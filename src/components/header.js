@@ -10,9 +10,9 @@ class Header extends React.Component {
         <>
             <Helmet htmlAttributes={{ lang: 'en' }}>
             <title>Title</title>
-              <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+            <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" data-api-key="ZjVkN2M3YzEtOGU0Yy00ZTUzLWFiZGQtNTNkZjY3NGM2YThkNjM3MDg5MjIyODA1Nzg2OTk5" id="snipcart"></script>
               <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-              <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="OTAxZDg1NTktY2NhOS00MGVkLWIyOGQtNTdiNWViZTc0ZjBjNjM3MDU5NDMwMDE3Njk1ODY2"></script>
+              <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" rel="stylesheet" type="text/css" />
             </Helmet>
             <div className="userphoto">
                 <a href="https://salemaziel.com">

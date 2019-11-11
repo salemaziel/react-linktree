@@ -61,14 +61,23 @@ function cardContent() {
                   textTransform: 'uppercase',
                   display: 'relative',
               }}>
-                  IG Bio Link Tree (Think Of better name) 
+                  theGramlink.online 
                   </h1> 
             </CardTitle>
             <CardSubtitle>Just a test: Subtitle</CardSubtitle>
             <CardText>
-                <Button primary href="/gallery" prefetch>Gallery Layout </Button>
-
-                    <div className='items'>
+                <div style={{
+                    display: 'grid',
+                    justifyContent: 'center',
+                    alignContent: 'center',
+                    textAlign: 'center',
+                }}>
+                <Button primary href="#" prefetch>Music </Button>
+                <Button primary href="#" prefetch>Shop </Button>
+                <Button primary href="#" prefetch>Photo Gallery </Button>
+                <Button primary href="#" prefetch>Website </Button>
+                
+                    {/**<div className='items'>
                         <div className='items-head'>
                             <h3>Linktree Dashboard</h3>
                             <hr/>
@@ -76,9 +85,9 @@ function cardContent() {
                             {categoria.map( (x, y) => {
                               return <Primario Cat={x} Sub={subcategorias[y]} key={x} />;
                                 })}
-                    </div>
+                            </div>**/}
                 Some quick example text blah blah blah
-                
+                </div>
                 </CardText>
   
                 

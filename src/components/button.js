@@ -6,22 +6,26 @@ import '../css/main.css'
 const Button = styled.Button = styled.a`
   background: transparent;
   border-radius: 3px;
-  border: 2px solid #ffc529;
-  color: #ffc529;
+  border: 2px solid #020024;
+  color: #020024;
   margin: 1em 1em;
   padding: 0.25em 1em;
+  text-decoration:none;
+  text-transform: uppercase;
   &:hover {
     text-decoration:none;
     color: orange;
   }
 
   ${props => props.primary && css`
-    background:#ffc529;
-    color: black;
+    background:#575F73;
+    color: #FFF;
     padding: 0.5em 3em;
     &:hover {
       text-decoration:none;
-      color: white;
+      color: #575F73;
+      background:#FFF
+
   `}
 
   ${props => props.secondary && css`

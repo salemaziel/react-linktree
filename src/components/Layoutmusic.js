@@ -4,7 +4,7 @@ import {
   } from 'reactstrap'
   import '../app.css'
   import '../css/main.css'
-  import Cardcontent3 from './cardContentmusic'
+  import Cardcontentmusic from './cardContentmusic'
   //import Header from '../components/header'
 
 
@@ -13,7 +13,7 @@ import {
         return (
 
             <Container>
-                <Cardcontent3 />
+                <Cardcontentmusic />
                
             </Container>
 

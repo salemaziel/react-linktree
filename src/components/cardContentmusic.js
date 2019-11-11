@@ -4,12 +4,12 @@ import {
     CardTitle, CardSubtitle,
     
   } from 'reactstrap'
-import Primario from './primario';
+
 import '../css/cardcontent.css'
 import Header from './header';
-import Gallery3 from './gallerymusic'
+import Gallerymusic from './gallerymusic'
 import '../css/gallery.css'
-import Gallerymusic from './gallerymusic';
+
 
 
 
